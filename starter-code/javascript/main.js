@@ -9,7 +9,6 @@ var milDec = document.getElementById('milDec');
 var milUni = document.getElementById('milUni');
 
 const printSeconds = () => {
-    console.log(chronometer)
     const splitSec = chronometer.seconds.split("");
     document.querySelector("#secDec").innerText = splitSec[0];
     document.querySelector("#secUni").innerText = splitSec[1];

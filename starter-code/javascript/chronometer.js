@@ -7,10 +7,10 @@ function Chronometer() {
 
 Chronometer.prototype.startClick = function () {
     chronometer.intervalId = setInterval(function () {
-        printSeconds();
-        printMinutes();
         chronometer.setTime();
         chronometer.currentTime++;
+        printSeconds();
+        printMinutes();
     }, 1000);
 };
 
