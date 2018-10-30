@@ -10,14 +10,14 @@ var milUni = document.getElementById('milUni');
 
 const printSeconds = () => {
     const splitSec = chronometer.seconds.split("");
-    document.querySelector("#secDec").innerText = splitSec[0];
-    document.querySelector("#secUni").innerText = splitSec[1];
+    secDec.innerText = splitSec[0];
+    secUni.innerText = splitSec[1];
 };
 
 const printMinutes = () => {
     const splitMin = chronometer.minutes.split("");
-    document.querySelector("#minDec").innerText = splitMin[0];
-    document.querySelector("#minUni").innerText = splitMin[1];
+    minDec.innerText = splitMin[0];
+    minUni.innerText = splitMin[1];
 
 }
 
